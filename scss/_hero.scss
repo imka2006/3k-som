@@ -1,0 +1,40 @@
+.hero {
+    background: url("../assets/img/hero/bg.png") center no-repeat;
+    background-size: cover;
+    padding: 300px 0 215px;
+    text-align: center;
+
+    &-title {
+        color: #1c1c1c;
+        font-size: 80px;
+        font-weight: 800;
+    }
+
+    &-description {
+        color: #4f4f4f;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 16px 0 60px;
+    }
+
+    &-btn-first {
+        border-radius: 5px;
+        background: #1c1c1c;
+        padding: 13px 48px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0 auto 35px;
+    }
+
+    &-btn-second {
+        border-radius: 5px;
+        border: 1px solid #1c1c1c;
+        background: #fff;
+        padding: 10px 20px;
+        color: #1c1c1c;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 auto;
+    }
+}

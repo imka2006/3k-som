@@ -1,0 +1,42 @@
+body {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: unset;
+    outline:unset;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+li {
+    list-style: none;   
+}
+
+button {
+    border: none;
+    outline: none;
+    display: block;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1365px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+textarea {
+    border: none;
+    outline: none;
+}
