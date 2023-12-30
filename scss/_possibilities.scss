@@ -13,7 +13,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: orange;
+        background: #fff;
+        border: 2px solid #1c1c1c;
+
+        svg {
+            fill: orange;
+        }
     }
 
     &-description {
@@ -38,10 +43,11 @@
         display: flex;
         align-items: start;
         gap: 30px;
-        background: #1c1c1c;
-        color: #fff;
+        background: #fff;
+        color: #1c1c1c;
         padding: 20px 30px 30px 30px;
-        border-radius: 10px;
+        border-radius: 20px;
+        border: 3px solid #1c1c1c;
     }
 
     &-name {

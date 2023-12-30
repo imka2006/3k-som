@@ -26,6 +26,15 @@ input {
     outline: unset;
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -52,4 +61,5 @@ button {
 textarea {
     border: none;
     outline: none;
+    resize: none;
 }
