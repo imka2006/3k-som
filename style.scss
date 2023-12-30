@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'hz'; /* Замените на имя вашего шрифта */
+    src: url('../font/TACTICROUNDEXTEXD-REG.TTF') format('truetype'); /* Замените на путь к вашему файлу шрифта и его формат */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 @import './scss/core';
 @import './scss/header';

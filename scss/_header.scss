@@ -1,7 +1,21 @@
 .header { 
-
     img {
         width: 100px;
+    }
+
+    &-logo {
+        font-family: 'hz';  
+        position: relative;
+        span {
+            font-weight: 700;
+            font-size: 18px;
+            position: absolute;
+            top: 50%;
+            bottom: 25px; 
+            left: 90px;
+            transform: translate(-0%, -50%);
+            width: max-content;
+        }
     }
 
     &-content {

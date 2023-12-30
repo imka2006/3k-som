@@ -1,8 +1,8 @@
 .footer {
-    padding: 87px 0 16px;
+    padding-bottom:16px;
     background: #1c1c1c;
     filter: blur(0px);
-    color: #dcdcdc;
+    color: #fff;
 
     &-list {
         display: flex;
@@ -37,9 +37,10 @@
     }
 
     &-item.first {
-        border-bottom: 1px solid #a8c027;
+        border-bottom: 1px solid orange;
         padding-bottom: 6px;
         width: max-content;
+        margin-top: 35px;
     }
 
     &-last-item {

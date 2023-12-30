@@ -1,3 +1,10 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "hz"; /* Замените на имя вашего шрифта */
+  src: url("../font/TACTICROUNDEXTEXD-REG.TTF") format("truetype"); /* Замените на путь к вашему файлу шрифта и его формат */
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -67,6 +74,21 @@ textarea {
 
 .header img {
   width: 100px;
+}
+.header-logo {
+  font-family: "hz";
+  position: relative;
+}
+.header-logo span {
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  bottom: 25px;
+  left: 90px;
+  transform: translate(0%, -50%);
+  width: -moz-max-content;
+  width: max-content;
 }
 .header-content {
   display: flex;
@@ -462,10 +484,10 @@ textarea {
 }
 
 .footer {
-  padding: 87px 0 16px;
+  padding-bottom: 16px;
   background: #1c1c1c;
   filter: blur(0px);
-  color: #dcdcdc;
+  color: #fff;
 }
 .footer-list {
   display: flex;
@@ -495,10 +517,11 @@ textarea {
   gap: 30px;
 }
 .footer-item.first {
-  border-bottom: 1px solid #a8c027;
+  border-bottom: 1px solid orange;
   padding-bottom: 6px;
   width: -moz-max-content;
   width: max-content;
+  margin-top: 35px;
 }
 .footer-last-item {
   color: #fff;
