@@ -1,5 +1,5 @@
 .footer {
-    padding-bottom:16px;
+    padding:20px 0 16px;
     background: #1c1c1c;
     filter: blur(0px);
     color: #fff;
@@ -29,6 +29,21 @@
         font-style: normal;
         font-weight: 400;
 
+        &.logo {
+            font-family: "hz";
+            position: relative;
+            span {
+                font-weight: 700;
+                font-size: 18px;
+                position: absolute;
+                top: 50%;
+                bottom: 25px;
+                left: 90px;
+                transform: translate(-0%, -50%);
+                width: max-content;
+            }
+        }
+
         &.cocial {
             display: flex;
             align-items: center;
@@ -40,7 +55,7 @@
         border-bottom: 1px solid orange;
         padding-bottom: 6px;
         width: max-content;
-        margin-top: 35px;
+        margin-top: 25px;
     }
 
     &-last-item {

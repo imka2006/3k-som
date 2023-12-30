@@ -484,7 +484,7 @@ textarea {
 }
 
 .footer {
-  padding-bottom: 16px;
+  padding: 20px 0 16px;
   background: #1c1c1c;
   filter: blur(0px);
   color: #fff;
@@ -511,6 +511,21 @@ textarea {
   font-style: normal;
   font-weight: 400;
 }
+.footer-item.logo {
+  font-family: "hz";
+  position: relative;
+}
+.footer-item.logo span {
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  bottom: 25px;
+  left: 90px;
+  transform: translate(0%, -50%);
+  width: -moz-max-content;
+  width: max-content;
+}
 .footer-item.cocial {
   display: flex;
   align-items: center;
@@ -521,7 +536,7 @@ textarea {
   padding-bottom: 6px;
   width: -moz-max-content;
   width: max-content;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .footer-last-item {
   color: #fff;
